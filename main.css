@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+section{
+    padding: 10px ;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+section .im{
+    padding: 5px;
+    text-align: center;
+    width: 60px;
+    height: auto;
+  
+    background-color: green;
+    border-radius: 50%;
+}
+section div i{
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+}
+
+section .green{
+    color: green;
+}
+
+section div:nth-child(2){
+    font-size: 20px;
+    margin: 10px;
+    font-weight: bold;
+}
+section div:nth-child(3){
+    font-size: 20px;
+    
+    font-weight: bold;
+}
